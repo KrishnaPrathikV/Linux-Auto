@@ -1,0 +1,13 @@
+devices:
+  - name: r1
+    host: 10.10.10.11
+    platform: cisco_ios
+    username: "${NET_USER}"
+    password: "${NET_PASS}"
+    secret: "${NET_SECRET}"
+  - name: sw1
+    host: 10.10.10.12
+    platform: cisco_ios
+    username: "${NET_USER}"
+    password: "${NET_PASS}"
+    secret: "${NET_SECRET}"
